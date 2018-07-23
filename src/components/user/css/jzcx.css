@@ -1,0 +1,204 @@
+.jzcx{
+    width:1730px;
+    position: relative;
+    font-size: 16px;
+}
+
+.jzcx-conditionA-main{
+    width:1730px;
+    height:100px;
+    display: inline-flex;
+    align-items:center;
+    background:rgba(250,250,250,1);
+    border-radius: 4px ;
+    margin-bottom:20px;
+    position: relative;
+}
+
+.jzcx-conditionA-main ul{
+    display: inline-flex;
+    align-items:center;
+    margin:0px 10px;
+    padding:0px 20px;
+}
+
+/*jzcx-conditionB-main的第一个ul样式*/
+
+.jzcx-conditionA-main-UlA input{
+    width:308px;
+    height:40px;
+    background:rgba(250,250,250,1);
+    border-radius: 4px ;
+}
+.jzcx-conditionA-main-UlA li:nth-child(1){
+    padding-left:20px;
+    padding-right: 10px;
+}
+
+.el-table .warning-row {
+    background: oldlace;
+  }
+  
+  .el-table .success-row {
+    background: #f0f9eb;
+  }
+/*jzcx-conditionA-main的第二个ul样式*/
+
+.jzcx-conditionA-main-UlB li{
+    padding:0px 10px;
+}
+.jzcx-conditionA-main-UlB input[type="radio"]{
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.jzcx-conditionA-main-UlB label{
+    padding:0px 10px;
+}
+.jzcx-conditionA-main-UlB input + label:before{
+    content: ""; 
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #01cd78;
+}
+.jzcx-conditionA-main-UlB input:checked + label:before{
+    width: 10px;
+    height: 10px;
+    background-color: #01cd78;
+    background-clip: content-box;
+    padding:5px;
+}
+
+/*jzcx-conditionA-main的输入框*/
+
+
+
+/*jzcx-conditionA-main的最后删除按钮*/
+.jzcx-conditionA-main-UlD button{
+    width:60px;
+    height:40px;
+    background:rgba(250,250,250,1);
+    border-radius: 4px ;
+}
+
+
+/*jzcx-conditionB-main的整体样式*/
+
+.jzcx-conditionB-main{
+    width:1730px;
+    height:100px;
+    display: inline-flex;
+    align-items:center;
+    justify-content: space-between;
+    background:rgba(250,250,250,1);
+    border-radius: 4px ;
+    margin-bottom:20px;
+    position: relative;
+}
+
+.jzcx-conditionB-main ul{
+    display: inline-flex;
+    align-items:center;
+}
+
+/*jzcx-conditionB-main的第一个ul样式*/
+
+.jzcx-conditionB-main-UlA input{
+    width:308px;
+    height:40px;
+    background:rgba(250,250,250,1);
+    border-radius: 4px ;
+}
+.jzcx-conditionB-main-UlA li:nth-child(1){
+    padding-left:20px;
+    padding-right: 10px;
+}
+
+
+
+
+/*两个大按钮样式*/
+.jzcx-conditionB-main-result{
+    width:1730px;
+    height:90px;
+    display: inline-flex;
+    justify-content:center;
+    align-items:center;
+    background:rgba(255,255,255,1);
+    margin: 20px 0px;
+}
+.jzcx-conditionB-main-result button{
+    width:150px;
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+    background:rgba(77,194,243,1);
+    border-radius: 10px;
+    color:#fff;
+    margin:20px;
+}
+
+/*筛选结果部分*/
+.jzcx-Result{
+    width:1730px;
+    position: relative;
+    margin-top:20px;
+}
+.jzcx-Result-title{ 
+    height:50px;
+    width:1730px;
+    background:rgba(255,255,255,1);
+    line-height: 50px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.jzcx-Result-title li{
+    font-size:xx-small;
+    padding-left:12px;
+}
+.jzcx-Result-title span{
+    padding:0px 10px;
+}
+.jzcx-Result-preserve{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    position: relative;
+    width:1730px;
+    height:60px;
+    background:rgba(255,255,255,1);
+}
+.tao{
+    width:1730px;
+    position: relative;  
+}
+.jzcx-Result-main{
+    overflow-x:auto;
+}
+.jzcx-Result-main-title{
+    width:1730px;
+    height:46px;
+    line-height: 46px;
+    background:rgba(247,248,250,1);
+    display: -webkit-inline-box;
+    border-bottom:1px solid #CACBCC;
+}
+.jzcx-Result-main-title ul{
+    width:160px;
+    color:#333333;
+}
+.jzcx-Result-main-title ul li{
+    padding-left:20px;
+}
+.jzcx-Result-main-title .active{
+    position: absolute;
+    left:0px;
+    border-right:1px solid #CACBCC;
+    background:#EDEEF0
+}

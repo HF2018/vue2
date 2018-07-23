@@ -1,0 +1,79 @@
+/* 
+siblings()
+  绝对定位+居中
+  position: absolute;
+  margin:0 auto;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+*/
+
+.mrgin-auto {
+  position: absolute;
+  margin: 0 auto;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.index {
+  width: 1900px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+/*header 头部设置*/
+
+.index .header {
+  position: relative;
+  width: 1900px;
+  height: 80px;
+  background: rgba(41, 60, 85, 1);
+  color: rgba(204, 204, 204, 1);
+  font-size: 16px;
+}
+
+.index .header .logo {
+  position: relative;
+  width: 150px;
+  height: 80px;
+  line-height: 80px;
+  color: #4dc2f3;
+  float: left;
+  font-size: 36px;
+  text-align: center
+}
+
+.index .header .navs {
+  position: relative;
+  width: 1510px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 16px;
+  display: -webkit-inline-box;
+  -webkit-box-pack: start;
+  float: left;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.index .header .navs li {
+  width: 120px;
+  height: 80px;
+  color: #CCCCCC;
+  text-align: center;
+}
+
+.index .header .navs .active {
+  background: rgba(22, 36, 54, 1);
+  border-top: 2px solid #4DC2F3;
+  color:#fff;
+}
+
+.index .header .navs li:hover {
+  background: rgba(14, 21, 31, 1);
+  border-top: 2px solid #4DC2F3;
+}

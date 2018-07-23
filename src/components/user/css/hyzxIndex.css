@@ -1,0 +1,23 @@
+.hyzxIndex-header{
+    position: relative;
+    width:1730px;
+}
+.hyzxIndex-header-top{
+    display: -webkit-inline-box;
+    -webkit-box-align:center;
+    height:40px;  
+}
+.hyzxIndex-header-top ul{
+    padding : 0px 10px;
+}
+.hyzxIndex-header-describe{
+    height:40px;  
+    background:rgba(232,233,235,1);
+    font-size:16px;
+    line-height: 40px;
+    color:#333333;
+    padding-left:20px;
+}
+.hyzxIndex-header-queryBtn{
+    margin:20px 0px;
+}

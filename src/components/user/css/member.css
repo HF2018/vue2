@@ -1,0 +1,44 @@
+
+/*侧边栏设置*/
+
+.index .aside {
+  width: 150px;
+  float: left;
+}
+
+.index .aside .active {
+  background: #4DC2F3;
+  color:#fff;
+}
+
+.index .aside ul {
+  width: 150px;
+  height: 54px;
+  display: -webkit-inline-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  background: rgba(41, 60, 85, 1);
+  cursor: pointer;
+  margin: 2px 0px;
+}
+
+.index .aside ul li {
+  color: #ffffff;
+  padding-left:10px;
+}
+
+.index .aside ul:hover {
+  background: #4DC2F3;
+}
+
+/*main设置*/
+
+.index .main {
+  width: 1750px;
+  float: left;
+}
+
+.index .main .core {
+  width: 1730px;
+  margin: 0 auto;
+}
